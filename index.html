@@ -25,9 +25,9 @@
 </head>
 
 <body>
-    <section class="banner container mx-auto grid grid-cols-1 md:grid-cols-2">
+    <section class="banner container mx-auto grid grid-cols-1 md:grid-cols-2 p-[20px]">
         <div class="banner-left space-y-[30px]">
-            <h2 class="text-[80px] font-extrabold">It's good <br>
+            <h2 class="font-extrabold text-[50px] sm:text-[80px]">It's good <br>
                 tea time at The <br> Tea House</h2>
 
             <p class="text-[18px] font-medium text-[#777777] text-[18px]">Tea and Botanical Solutions Supplier Give
@@ -53,7 +53,7 @@
         </div>
     </section>
 
-    <section class="featured container mx-auto text-center my-[120px]">
+    <section class="featured container mx-auto text-center my-[120px] p-[20px]">
         <div class="featured-header max-w-[900px] mx-auto">
             <h2 class="font-extrabold text-[45px] mb-[20px]">Our Featured Products</h2>
             <p class="mb-[50px] font-medium text-[#777777]">There are many variations of passages of Lorem Ipsum
@@ -86,7 +86,7 @@
         </div>
     </section>
 
-    <section class="great-tea container mx-auto grid gap-[50px] sm:grid-cols-1 md:grid-cols-2">
+    <section class="great-tea container mx-auto grid gap-[50px] p-[20px] sm:grid-cols-1 md:grid-cols-2">
         <div class="great-tea-left grid gap-[30px] grid-cols-2 grid-rows-3">
             <div class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] opacity-10 rounded-[10px]"></div>
             <div class="bg-[#e6a6231a] rounded-[10px] row-span-2 flex justify-center items-center">
@@ -114,61 +114,64 @@
         </div>
     </section>
 
-    <section
-        class="meet-clients mt-[120px] container mx-auto bg-gradient-to-r from-[#FF8938] to-[#FF0000] py-[85px] px-[70px] rounded-lg grid gap-[80px] sm:gap-[80px] grid-cols-1 lg:grid-cols-2">
-
-        <div class="meet-clients-left text-white  flex items-center">
-            <div class="space-y-[20px]">
-                <h2 class="font-extrabold text-[45px]">Meet Our Super <br> Clients</h2>
-                <p class="font-medium text-[#F4F4F4]">There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form, by injected humour, or randomised words
-                    which don't look even slightly believable.</p>
-                <button class="bg-white py-[15px] px-[28px] rounded-lg"><span
-                        class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent font-bold text-[20px]">Show
-                        All</span></button>
-            </div>
-        </div>
-
-        <div class="meet-clients-right pl-[50px] sm:pl-[150px] relative ">
-
-            <div
-                class="meet-clients-card bg-white p-[40px] w-[350px] sm:w-[433px] rounded-lg absolute -left-[35px] sm:-left-[5px] top-[120px] z-20">
-                <p class="text-[#777777] pb-[20px]">We are providing the best and suitable home insurance services for
-                    the people who are interested to treatment</p>
-                <h2 class="font-bold">Ilham Yuda</h2>
-                <p class="text-[#5D5A6F]">Businessman</p>
-                <div>
-                    <img src="./images/client.png" alt=""
-                        class="absolute -left-[20px] -top-[20px] bg-white p-1 rounded-full">
-                </div>
-                <img src="./images/circles.png" alt="" class="absolute botom-[25px] right-[25px]">
-            </div>
-
-            <div
-                class="meet-clients-card bg-white p-[40px] w-[350px] sm:w-[433px] rounded-lg relative opacity-20 mb-[30px]">
-                <p class="text-[#777777] pb-[20px]">We are providing the best and suitable home insurance services for
-                    the people who are interested to treatment</p>
-                <h2 class="font-bold">Ilham Yuda</h2>
-                <p class="text-[#5D5A6F]">Businessman</p>
-                <div>
-                    <img src="./images/client.png" alt=""
-                        class="absolute -left-[20px] -top-[20px] bg-white p-1 rounded-full">
+    <div class="px-[10px]">  <!-- This is for outside padding -->
+        <section
+            class="meet-clients mt-[120px] container mx-auto bg-gradient-to-r from-[#FF8938] to-[#FF0000] py-[85px] px-[30px] sm:px-[70px] rounded-lg grid gap-[80px] sm:gap-[80px] grid-cols-1 lg:grid-cols-2">
+    
+            <div class="meet-clients-left text-white  flex items-center">
+                <div class="space-y-[20px]">
+                    <h2 class="font-extrabold text-[45px]">Meet Our Super <br> Clients</h2>
+                    <p class="font-medium text-[#F4F4F4]">There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form, by injected humour, or randomised words
+                        which don't look even slightly believable.</p>
+                    <button class="bg-white py-[15px] px-[28px] rounded-lg"><span
+                            class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent font-bold text-[20px]">Show
+                            All</span></button>
                 </div>
             </div>
-
-            <div class="meet-clients-card bg-white p-[40px] w-[350px] sm:w-[433px] rounded-lg relative opacity-20">
-                <p class="text-[#777777] pb-[20px]">We are providing the best and suitable home insurance services for
-                    the people who are interested to treatment</p>
-                <h2 class="font-bold">Ilham Yuda</h2>
-                <p class="text-[#5D5A6F]">Businessman</p>
-                <div>
-                    <img src="./images/client.png" alt=""
-                        class="absolute -left-[20px] -top-[20px] bg-white p-1 rounded-full">
+    
+            <div class="meet-clients-right pl-[5px] mx-auto sm:pl-[150px] relative">
+    
+                <div
+                    class="meet-clients-card bg-white p-[40px] w-[350px] sm:w-[433px] rounded-lg absolute -left-[35px] left-0 sm:-left-[5px] top-[120px] z-20">
+                    <p class="text-[#777777] pb-[20px]">We are providing the best and suitable home insurance services for
+                        the people who are interested to treatment</p>
+                    <h2 class="font-bold">Ilham Yuda</h2>
+                    <p class="text-[#5D5A6F]">Businessman</p>
+                    <div>
+                        <img src="./images/client.png" alt=""
+                            class="absolute -left-[20px] -top-[20px] bg-white p-1 rounded-full">
+                    </div>
+                    <img src="./images/circles.png" alt="" class="absolute botom-[25px] right-[25px]">
                 </div>
+    
+                <div
+                    class="meet-clients-card bg-white p-[40px] w-[350px] sm:w-[433px] rounded-lg relative opacity-20 mb-[30px]">
+                    <p class="text-[#777777] pb-[20px]">We are providing the best and suitable home insurance services for
+                        the people who are interested to treatment</p>
+                    <h2 class="font-bold">Ilham Yuda</h2>
+                    <p class="text-[#5D5A6F]">Businessman</p>
+                    <div>
+                        <img src="./images/client.png" alt=""
+                            class="absolute -left-[20px] -top-[20px] bg-white p-1 rounded-full">
+                    </div>
+                </div>
+    
+                <div class="meet-clients-card bg-white p-[40px] w-[350px] sm:w-[433px] rounded-lg relative opacity-20">
+                    <p class="text-[#777777] pb-[20px]">We are providing the best and suitable home insurance services for
+                        the people who are interested to treatment</p>
+                    <h2 class="font-bold">Ilham Yuda</h2>
+                    <p class="text-[#5D5A6F]">Businessman</p>
+                    <div>
+                        <img src="./images/client.png" alt=""
+                            class="absolute -left-[20px] -top-[20px] bg-white p-1 rounded-full">
+                    </div>
+                </div>
+    
             </div>
+        </section>
 
-        </div>
-    </section>
+    </div>
 
     <section class="news-events mt-[120px] mb-[120px] max-w-[1140px] mx-auto">
         <div class="news-events-header text-center px-[20px]">
